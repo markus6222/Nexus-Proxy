@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\discord-rpc">
+      <UniqueIdentifier>{3bb178ac-ab91-4bc7-b6fd-9ac62551cf3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\C_Classes">
+      <UniqueIdentifier>{a473fcef-3e89-403f-b820-8fa474e0d8e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\H_Classes">
+      <UniqueIdentifier>{1e5463aa-976a-42e4-ac14-577406556c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cpp_Classes">
+      <UniqueIdentifier>{a1a1207e-a156-43b2-9c88-ee52f04124a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Auth">
+      <UniqueIdentifier>{59de1bb3-9188-44a3-be4c-f33d0aa4b2fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DiscordRPCIdenty">
+      <UniqueIdentifier>{ecd46fad-53a2-4965-a963-bd1fa6e88146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Enet">
+      <UniqueIdentifier>{6fe1eadc-29b1-4f21-a71d-7c9ae43bd65e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Decoder">
+      <UniqueIdentifier>{6275dbe7-179d-4c53-884b-2d02f26d6db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World_Serialize">
+      <UniqueIdentifier>{5126d927-6f99-48b4-af13-28cda36b3853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Library">
+      <UniqueIdentifier>{ed089d17-d2c4-4a65-b6aa-1b8332d75b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gt-Tools">
+      <UniqueIdentifier>{ba827492-49c1-4cba-bc8b-4c06dddf7457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{732a9b40-0033-4e17-8afe-484221a53f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pathfinder">
+      <UniqueIdentifier>{b211d880-9822-42ec-a1d1-a09ff9143f1e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="enet\callbacks.c">
+      <Filter>Source Files\C_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\compress.c">
+      <Filter>Source Files\C_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\host.c">
+      <Filter>Source Files\C_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\list.c">
+      <Filter>Source Files\C_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\packet.c">
+      <Filter>Source Files\C_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\peer.c">
+      <Filter>Source Files\C_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\protocol.c">
+      <Filter>Source Files\C_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\unix.c">
+      <Filter>Source Files\C_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\win32.c">
+      <Filter>Source Files\C_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog.cpp">
+      <Filter>Source Files\Cpp_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="events.cpp">
+      <Filter>Source Files\Cpp_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="gt.cpp">
+      <Filter>Source Files\Cpp_Classes</Filter>
+    </ClCompile>
+      <Filter>Source Files\Cpp_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="playerInventory.cpp">
+      <Filter>Source Files\Cpp_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="print.cpp">
+      <Filter>Source Files\Cpp_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="proxy.cpp">
+      <Filter>Source Files\Cpp_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="server.cpp">
+      <Filter>Source Files\Cpp_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files\Cpp_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="world\world.cpp">
+      <Filter>Source Files\Cpp_Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gt.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="events.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="namespace_class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="playerInventory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinder\Location.h">
+      <Filter>Source Files\Pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinder\PathFinder.h">
+      <Filter>Source Files\Pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="discordrpc\src\backoff.h">
+      <Filter>Source Files\H_Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog.h">
+      <Filter>Source Files\H_Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="print.h">
+      <Filter>Source Files\H_Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ProxyHandlers.h">
+      <Filter>Source Files\H_Classes</Filter>
+    </ClInclude>
+      <Filter>Header Files\Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="discord_rpc.h">
+      <Filter>Header Files\DiscordRPCIdenty</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\callbacks.h">
+      <Filter>Header Files\Enet</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\enet.h">
+      <Filter>Header Files\Enet</Filter>
+    </ClInclude>
+    <ClInclude Include="items_dat_decode.h">
+      <Filter>Header Files\Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="world\MemoryReader.h">
+      <Filter>Header Files\World_Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="world\NewWorld.h">
+      <Filter>Header Files\World_Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="world\world_tile_map.h">
+      <Filter>Header Files\World_Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="world\world_object_map.h">
+      <Filter>Header Files\World_Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>Header Files\World_Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\protocol.h">
+      <Filter>Header Files\Enet</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\Enet</Filter>
+    </ClInclude>
+    <ClInclude Include="httplib.h">
+      <Filter>Header Files\Enet</Filter>
+    </ClInclude>
+      <Filter>Header Files\Enet</Filter>
+    </ClInclude>
+    <ClInclude Include="klv.h">
+      <Filter>Header Files\Gt-Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="proton\hash.hpp">
+      <Filter>Header Files\Gt-Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files\Gt-Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\list.h">
+      <Filter>Header Files\Enet</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\win32.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="proton\vector.hpp">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="unban.h">
+      <Filter>Header Files\Gt-Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="proton\variant.hpp">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\utility.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\unix.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\types.h">
+      <Filter>Header Files\Enet</Filter>
+    </ClInclude>
+    <ClInclude Include="world\tile_extra.h">
+      <Filter>Header Files\World_Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="world\tile.h">
+      <Filter>Header Files\World_Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Header Files\World_Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\time2.h">
+      <Filter>Header Files\Enet</Filter>
+    </ClInclude>
+    <ClInclude Include="proton\rtparam.hpp">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="3765646582_3746456.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="discord-rpc\win64-static\lib\discord-rpc.lib">
+      <Filter>Header Files\discord-rpc</Filter>
+    </Library>
+      <Filter>Header Files\Library</Filter>
+    </Library>
+      <Filter>Header Files\Library</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

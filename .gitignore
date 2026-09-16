@@ -1,0 +1,12 @@
+.vs/
+x64/
+Win32/
+*.user
+*.aps
+*.pdb
+*.obj
+*.tlog
+*.recipe
+*.log
+Nexus Proxy/
+Quench Proxy/
